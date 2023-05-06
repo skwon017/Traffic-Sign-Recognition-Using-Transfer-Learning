@@ -1,19 +1,21 @@
 # Traffic-Sign-Recognition-Using-Transfer-Learning
-DS-UA 301 Advanced Topics in Data Science
 
-Final Project
+Final Project for DS-UA 301 Advanced Topics in Data Science
 
+### Team members
 Lauren Kwon and Michelle Espinoza
 
-## Links
-- [Models](https://colab.research.google.com/drive/1jHdlSlW3YWTQ49cYC6BQqhkzopzX8Qf2#scrollTo=WchzWWUlW4xM)
-- [PPT Slides](https://docs.google.com/presentation/d/1pMk51fNKynncxjOoo2xaL5i9ExKMJfYOiIYm0Qx7HIU/edit#slide=id.g22d81cb8e33_0_50)
+## Project Description
 
 ## Model Architecture
 
 ## Results
 
 ## Conclusion
+
+## Links
+- [Google Colab Notebook](https://colab.research.google.com/drive/1jHdlSlW3YWTQ49cYC6BQqhkzopzX8Qf2#scrollTo=WchzWWUlW4xM)
+- [Presentation Slides](https://docs.google.com/presentation/d/1pMk51fNKynncxjOoo2xaL5i9ExKMJfYOiIYm0Qx7HIU/edit#slide=id.g22d81cb8e33_0_50)
 
 ## References
 
