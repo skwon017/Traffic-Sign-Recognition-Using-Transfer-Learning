@@ -14,11 +14,47 @@ One challenge faced in this project is the limited number of images per class in
 Goal:
 - Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
 
+## Project Framework
+
+- Prepare dataset
+  + Download German Traffic Sign Recognition Benchmark (GTSRB) dataset
+  + Pre-process (resize, normalize, augment) dataset
+- Import pre-trained models
+  + Load pre-trained models
+  + Remove the last fully-connected layer from each model
+- Modify models
+  + Add a new fully-connected layer with output dimension equal to the number of classes in GTSRB dataset
+  + Initialize weights for new layer 
+  + Freeze weights of all other layers
+- Set up wandb.ai for hyperparameter tuning
+  + Configure wandb.ai for tracking experiments and results
+  + Define learning rate search space
+- Perform learning rate search
+  + Train each model with various learning rates
+  + Evaluate performance at each learning rate
+- Identify optimal learning rates
+  + Find learning rate with minimal loss for each model
+- Train models with optimal learning rates
+  + Update only the weights of new fully connected layer
+- Evaluate model performance
+  + Compare accuracy among three models
+
 
 ## Model Architecture
 The fully connected layer at the end of each pre-trained model will be removed, and a new fully connected layer with output dimensions corresponding to the number of classes in the traffic sign dataset will be added. The weights of the new fully connected layer will be randomized, while the weights from the pre-trained model will be frozen. The model will be trained to update the weights of the new fully connected layer. Wandb.ai will be used to find the learning rate with minimal loss for each model.
 
+
 ## Results
+
+### Model Performance
+
+- ResNet-50
+- VGG-16
+- LeNet-5
+
+
+### Insights
+
 
 ## Conclusion
 
