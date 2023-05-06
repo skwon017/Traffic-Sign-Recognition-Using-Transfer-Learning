@@ -1,6 +1,8 @@
 # Traffic-Sign-Recognition-Using-Transfer-Learning
 DS-UA 301 Advanced Topics in Data Science
+
 Final Project
+
 Lauren Kwon and Michelle Espinoza
 
 ## Links
