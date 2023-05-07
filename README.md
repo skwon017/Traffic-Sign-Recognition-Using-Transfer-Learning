@@ -11,8 +11,7 @@ Autonomous vehicles have recently emerged as a rising trend in artificial intell
 
 One challenge faced in this project is the limited number of images per class in the dataset, which could lead to poor model performance. To overcome this issue, transfer learning will be employed. The approach involves using three image classification models - ResNet-50, VGG-16, and LeNet-5 - pretrained on ImageNet, CIFAR100, and MNIST datasets respectively, to initialize the training and classification of the German Traffic Sign Recognition Benchmark dataset from Kaggle.
 
-Goal:
-- Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
+Goal: Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
 
 
 ![ProjectFramework](./ProjectFramework.png)
