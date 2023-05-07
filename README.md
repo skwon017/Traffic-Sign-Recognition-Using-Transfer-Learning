@@ -14,7 +14,6 @@ One challenge faced in this project is the limited number of images per class in
 Goal:
 - Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
 
-## Project Framework
 
 ![ProjectFramework](./ProjectFramework.png)
 
@@ -24,6 +23,12 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 
 
 ## Results
+
+### Learning Rate
+
+- ResNet-50
+- VGG-16
+- LeNet-5
 
 ### Model Performance
 
