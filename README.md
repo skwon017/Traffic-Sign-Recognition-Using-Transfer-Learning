@@ -16,7 +16,7 @@ Goal:
 
 ## Project Framework
 
-![ProjectFramework](./Desktop/ProjectFramework.png)
+![ProjectFramework](skwon017/Traffic-Sign-Recognition-Using-Transfer-Learning/ProjectFramework.png)
 
 
 ## Model Architecture
