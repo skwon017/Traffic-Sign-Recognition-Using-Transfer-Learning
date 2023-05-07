@@ -16,28 +16,7 @@ Goal:
 
 ## Project Framework
 
-- Prepare dataset
-  + Download German Traffic Sign Recognition Benchmark (GTSRB) dataset
-  + Pre-process (resize, normalize, augment) dataset
-- Import pre-trained models
-  + Load pre-trained models
-  + Remove the last fully-connected layer from each model
-- Modify models
-  + Add a new fully-connected layer with output dimension equal to the number of classes in GTSRB dataset
-  + Initialize weights for new layer 
-  + Freeze weights of all other layers
-- Set up wandb.ai for hyperparameter tuning
-  + Configure wandb.ai for tracking experiments and results
-  + Define learning rate search space
-- Perform learning rate search
-  + Train each model with various learning rates
-  + Evaluate performance at each learning rate
-- Identify optimal learning rates
-  + Find learning rate with minimal loss for each model
-- Train models with optimal learning rates
-  + Update only the weights of new fully connected layer
-- Evaluate model performance
-  + Compare accuracy among three models
+![ProjectFramework](./Desktop/ProjectFramework.png)
 
 
 ## Model Architecture
