@@ -27,7 +27,7 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 
 - ResNet-50
 
-![resnet_lr](./resnet_lr.png)
+![resnet_op_lr](./resnet_op_lr.png)
 
 - VGG-16
 - LeNet-5
