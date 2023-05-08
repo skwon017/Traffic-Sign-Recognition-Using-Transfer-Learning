@@ -24,7 +24,9 @@ The pre-trained model is first loaded, ensuring that the weights of all layers a
 
 ## Results
 
-### Learning Rate, Optimizer, Validation loss, Accuracy
+### Learning Rate, Optimizer, Validation loss, Validation Accuracy
+
+The learning rate value with the minimal validation loss is selected for each model.
 
 - ResNet-50
   + learning rate: 0.0008861 
@@ -58,8 +60,25 @@ The pre-trained model is first loaded, ensuring that the weights of all layers a
 
 ![plot_mobilenetv2](./plot_mobilenetv2.png)
 
-  
+### Model Performance
+
+The performance of the model is measured in terms of accuracy on the unseen test set.
+
+- ResNet-50
+
+- LeNet-5
+
+- DenseNet-161
+
+- MobileNet v2
+
 ### Insights
+
+1. Among the four models, DenseNet-161 achieved the highest accuracy (68.822%) and the lowest loss (1.464). This implies that DenseNet-161 is more effective at correctly identifying traffic signs in the given dataset, making fewer misclassifications compared to the other models.
+
+2. The results demonstrate the potential of transfer learning in scenarios with limited data. All models managed to learn traffic sign classifications to some extent, leveraging their pre-trained weights. However, the performance difference between the models indicates that not all architectures are equally effective for this task, and the choice of architecture matters.
+
+3. While DenseNet-161 performed the best among the four, an accuracy of 68.822% leaves room for improvement. Future work may involve additional data augmentation techniques, hyperparameter tuning, ensemble methods, or the use of more recent and possibly more powerful architectures. 
 
 
 ## Conclusion
