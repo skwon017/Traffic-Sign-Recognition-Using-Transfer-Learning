@@ -26,6 +26,9 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 ### Learning Rate
 
 - ResNet-50
+
+![resnet_lr](./W&B Chart 5_7_2023, 11_05_08 PM.png)
+
 - VGG-16
 - LeNet-5
 
