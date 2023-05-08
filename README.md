@@ -24,63 +24,40 @@ The pre-trained model is first loaded, ensuring that the weights of all layers a
 
 ## Results
 
-### Learning Rate
+### Learning Rate, Optimizer, Validation loss, Accuracy
 
 - ResNet-50
-![resnet_op_lr](./resnet_op_lr.png)
+  + learning rate: 0.0008861 
+  + optimizer: adam
+  + loss: 1.734
+  + accuracy: 57.256
+
+![plot_resnet50](./plot_resnet50.png)
 
 - LeNet-5
-![lenet_op_lr](./lenet_op_lr.png)
+  + learning rate: 0.0008741 
+  + optimizer: adam
+  + loss: 2.153
+  + accuracy: 41.992
+
+![plot_lenet5](./plot_lenet5.png)
 
 - DenseNet-161
-![densenet_op_lr](./densenet_op_lr.png)
+  + learning rate: 0.0008344 
+  + optimizer: adam
+  + loss: 1.464
+  + accuracy: 68.822
+
+![plot_densenet161](./plot_densenet161.png)
 
 - MobileNet v2
-![mobilenet_op_lr](./mobilenet_op_lr.png)
+  + learning rate: 0.0007877 
+  + optimizer: adam
+  + loss: 1.698
+  + accuracy: 51.466
 
+![plot_mobilenetv2](./plot_mobilenetv2.png)
 
-### Model Performance
-
-- ResNet-50
-<Train>
-Epoch: 1/30	   Loss: 0.5769	 Accuracy: 83.36%
-Epoch: 2/30	   Loss: 0.1054	 Accuracy: 97.11%
-Epoch: 3/30	   Loss: 0.1271	 Accuracy: 96.94%
-Epoch: 4/30	   Loss: 0.0655	 Accuracy: 98.31%
-Epoch: 5/30	   Loss: 0.0413	 Accuracy: 98.91%
-Epoch: 6/30	   Loss: 0.0493	 Accuracy: 98.76%
-Epoch: 7/30	   Loss: 0.1158	 Accuracy: 97.55%
-Epoch: 8/30	   Loss: 0.0591	 Accuracy: 98.66%
-Epoch: 9/30	   Loss: 0.0336	 Accuracy: 99.21%
-Epoch: 10/30	 Loss: 0.0701	 Accuracy: 98.13%
-Epoch: 11/30	 Loss: 0.0147	 Accuracy: 99.58%
-Epoch: 12/30	 Loss: 0.0619	 Accuracy: 98.24%
-Epoch: 13/30	 Loss: 0.0470	 Accuracy: 98.75%
-Epoch: 14/30	 Loss: 0.0462	 Accuracy: 99.02%
-Epoch: 15/30	 Loss: 0.0190	 Accuracy: 99.61%
-Epoch: 16/30	 Loss: 0.0127	 Accuracy: 99.64%
-Epoch: 17/30	 Loss: 0.0164	 Accuracy: 99.56%
-Epoch: 18/30	 Loss: 0.0297	 Accuracy: 99.28%
-Epoch: 19/30	 Loss: 0.0125	 Accuracy: 99.72%
-Epoch: 20/30	 Loss: 0.0193	 Accuracy: 99.47%
-Epoch: 21/30	 Loss: 0.0251	 Accuracy: 99.37%
-Epoch: 22/30	 Loss: 0.0196	 Accuracy: 99.60%
-Epoch: 23/30	 Loss: 0.0426	 Accuracy: 98.94%
-Epoch: 24/30	 Loss: 0.0172	 Accuracy: 99.57%
-Epoch: 25/30	 Loss: 0.0115	 Accuracy: 99.74%
-Epoch: 26/30	 Loss: 0.0125	 Accuracy: 99.72%
-Epoch: 27/30	 Loss: 0.0176	 Accuracy: 99.52%
-Epoch: 28/30	 Loss: 0.0125	 Accuracy: 99.66%
-Epoch: 29/30	 Loss: 0.0215	 Accuracy: 99.43%
-Epoch: 30/30	 Loss: 0.0301	 Accuracy: 99.44%
-
-<Test> 
-Accuracy: 0.42%
-
-- LeNet-5
-- DenseNet-161
-- MobileNet v2
-  
   
 ### Insights
 
