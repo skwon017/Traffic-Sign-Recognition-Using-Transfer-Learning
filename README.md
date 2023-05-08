@@ -30,6 +30,8 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 ![resnet_op_lr](./resnet_op_lr.png)
 
 - VGG-16
+
+![lenet_op_lr](./lenet_op_lr.png)
 - LeNet-5
 
 ### Model Performance
