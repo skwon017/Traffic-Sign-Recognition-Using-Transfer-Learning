@@ -26,13 +26,17 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 ### Learning Rate
 
 - ResNet-50
-
 ![resnet_op_lr](./resnet_op_lr.png)
 
-- VGG-16
-
-![lenet_op_lr](./lenet_op_lr.png)
 - LeNet-5
+![lenet_op_lr](./lenet_op_lr.png)
+
+- DenseNet-161
+![densenet_op_lr](./densenet_op_lr.png)
+
+- MobileNet v2
+![mobilenet_op_lr](./mobilenet_op_lr.png)
+
 
 ### Model Performance
 
@@ -54,3 +58,7 @@ The fully connected layer at the end of each pre-trained model will be removed, 
 
 - [German Traffic Sign Recognition Benchmark (GTSRB) Dataset from Kaggle](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 - [Traffic sign recognition with multi-scale Convolutional Networks (Sermanet and LeCun, 2011)](https://ieeexplore.ieee.org/document/6033589)
+- He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770-778).
+- Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., ... & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).
+- Huang, G., Liu, Z., Van Der Maaten, L., & Weinberger, K. Q. (2017). Densely connected convolutional networks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4700-4708).
+- Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). Mobilenetv2: Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4510-4520).
