@@ -65,29 +65,42 @@ The learning rate value with the minimal validation loss is selected for each mo
 The performance of the model is measured in terms of accuracy on the unseen test set.
 
 - ResNet-50
-  + Accuracy: 94.98%
+  + Accuracy: 95.60%
+  + Loss: 0.2084
+  + F1 Score: 0.9317
 
 - LeNet-5
-  + Accuracy: 93.99%
+  + Accuracy: 95.24%
+  + Loss: 0.2068
+  + F1 Score: 0.9357
 
 - DenseNet-161
   + Accuracy: 95.97%
+  + Loss: 0.1757
+  + F1 Score: 0.9382
 
 - MobileNet v2
   + Accuracy: 95.45%
+  + Loss: 0.2372
+  + F1 Score: 0.9208
 
 
 ### Insights
 
-1. Among the four models, DenseNet-161 achieved the highest accuracy (68.822%) and the lowest loss (1.464). This implies that DenseNet-161 is more effective at correctly identifying traffic signs in the given dataset, making fewer misclassifications compared to the other models.
+1. Among the four models, DenseNet-161 achieved the highest accuracy (95.97%), the lowest loss (0.1757), and highest f1-score (0.9382). This implies that DenseNet-161 is more effective at correctly identifying traffic signs in the given dataset, making fewer misclassifications compared to the other models, and achieving good balance of precision and recall.
 
-2. The results demonstrate the potential of transfer learning in scenarios with limited data. All models managed to learn traffic sign classifications to some extent, leveraging their pre-trained weights. However, the performance difference between the models indicates that not all architectures are equally effective for this task, and the choice of architecture matters.
+2. The results demonstrate the potential of transfer learning in scenarios with limited data. All models managed to learn traffic sign classifications to some extent, leveraging their pre-trained weights. Although the differences in performance metrics among the models are quite small, not all architectures are equally effective for this task, and the choice of architecture matters.
 
-3. While DenseNet-161 performed the best among the four, an accuracy of 68.822% leaves room for improvement. Future work may involve additional data augmentation techniques, hyperparameter tuning, ensemble methods, or the use of more recent and possibly more powerful architectures. 
+3. Different architectures have different trade-offs in terms of computational efficiency, memory usage, and ease of implementation. For example, MobileNet v2, despite having slightly lower performance metrics, might still be the best choice for a resource-constrained environment due to its design for efficiency, whereas DenseNet-161 required the longest training time to get the highest accuracy.
 
 
 ## Conclusion
 
+In our project, we leveraged the power of transfer learning to classify traffic signs. Through the use of pre-trained models - ResNet-50, LeNet-5, DenseNet-161, and MobileNet v2 - we were able to achieve impressive performance, despite the limited number of images per class in our dataset.
+
+Each of the models showcased their strengths in the experiment, with DenseNet-161 achieving the highest overall performance in terms of accuracy, loss, and F1 score. However, it is important to note that model selection is not solely dependent on performance metrics. Factors such as computational efficiency, memory usage, and suitability for specific deployment environments also play a vital role in the selection process. For instance, in a resource-constrained environment, MobileNet v2, despite its slightly lower performance, could be the preferred choice due to its efficiency in design.
+
+The results of our work highlight the potential of transfer learning for tasks with limited data availability, and underscore the importance of choosing the right architecture when applying this technique. As advancements in autonomous vehicle technology continue, we believe our findings will contribute positively to the field, particularly in the area of traffic sign recognition.
 
 ## References
 
