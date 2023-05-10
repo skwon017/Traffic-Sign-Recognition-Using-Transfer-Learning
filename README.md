@@ -13,6 +13,10 @@ One challenge faced in this project is the limited number of images per class in
 
 Goal: Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
 
+
+![ProjectFramework](./ProjectFramework.png)
+
+
 ### Running the Code
 
 To execute the code in this repository, you will need Jupyter notebook installed on your machine. You can install it via pip:
@@ -41,8 +45,15 @@ jupyter notebook
 
 In the Jupyter notebook dashboard, click on the notebook of your choice (e.g., `model_resnet50.ipynb`) to open it. You can then run the cells to execute the code.
 
+The repository is structured as follows:
 
-![ProjectFramework](./ProjectFramework.png)
+- model_resnet50.ipynb: Jupyter notebook for the ResNet-50 model.
+- model_lenet5.ipynb: Jupyter notebook for the LeNet-5 model.
+- model_densenet161.ipynb: Jupyter notebook for the DenseNet-161 model.
+- model_mobilenetv2.ipynb: Jupyter notebook for the MobileNet v2 model.
+- model_performance.ipynb: Jupyter notebook for evaluating and comparing the performance of the models.
+
+Each Jupyter notebook for specific model includes experimenting with different optimizers and learning rates using wandb.ai. Jupyter notebook for model performance includes training and evaluation with optimal optimizer and optimal learning rate.
 
 
 ## Model Architecture
