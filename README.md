@@ -65,12 +65,17 @@ The learning rate value with the minimal validation loss is selected for each mo
 The performance of the model is measured in terms of accuracy on the unseen test set.
 
 - ResNet-50
+  + Accuracy: 94.98%
 
 - LeNet-5
+  + Accuracy: 93.99%
 
 - DenseNet-161
+  + Accuracy: 95.97%
 
 - MobileNet v2
+  + Accuracy: 95.45%
+
 
 ### Insights
 
