@@ -13,6 +13,34 @@ One challenge faced in this project is the limited number of images per class in
 
 Goal: Identifying the best model architecture and optimal learning rate when applying transfer learning for traffic sign recognition. 
 
+### Running the Code
+
+To execute the code in this repository, you will need Jupyter notebook installed on your machine. You can install it via pip:
+
+```
+pip install jupyter
+```
+
+Next, clone the repository to your local machine:
+
+```
+git clone https://github.com/skwon017/Traffic-Sign-Recognition-Using-Transfer-Learning
+```
+
+Navigate to the repository's directory:
+
+```
+cd Traffic-Sign-Recognition-Using-Transfer-Learning
+```
+
+Start Jupyter notebook:
+
+```
+jupyter notebook
+```
+
+In the Jupyter notebook dashboard, click on the notebook of your choice (e.g., `model_resnet50.ipynb`) to open it. You can then run the cells to execute the code.
+
 
 ![ProjectFramework](./ProjectFramework.png)
 
